@@ -24,6 +24,8 @@
   to operate the "/manager/html" web application.  If you wish to use this app,
   you must define such a user - the username and password are arbitrary.
 -->
+  <role rolename="admin-gui"/>
+<user username="Admin" password="Rockwell1" roles="admin-gui"/>
 <!--
   NOTE:  The sample user and role entries below are wrapped in a comment
   and thus are ignored when reading this file. Do not forget to remove
